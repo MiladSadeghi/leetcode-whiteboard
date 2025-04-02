@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# ✏️ LeetCode Whiteboard – Chrome Extension
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![preview](public/image/preview.png)
 
-Currently, two official plugins are available:
+A whiteboard overlay for [LeetCode](https://leetcode.com) problem pages.  
+Draw, write, and visualize your algorithm ideas without leaving the tab.  
+Built with [tldraw](https://github.com/tldraw/tldraw).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🖌️ Draw directly on LeetCode problems
+- ✍️ Supports freehand drawing, shapes, text, and more
+- 💾 Saves your whiteboard per problem
+- ⚡ Quick and lightweight
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📦 Installation
+
+You can download the latest pre-built version from the [Releases](https://github.com/MiladSadeghi/leetcode-whiteboard/releases) section.
+
+To install manually:
+
+1. Download the `.zip` from the latest release
+2. Unzip it
+3. Go to `chrome://extensions/` in your browser
+4. Enable **Developer mode**
+5. Click **Load unpacked** and select the unzipped folder
+
+---
+
+## 🛠 For Developers
+
+To build the extension from source:
+
+```bash
+pnpm install
+pnpm build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The output will be in the `dist/` folder. You can then load it into Chrome as an unpacked extension.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🙌 Contributing
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Pull requests and suggestions are welcome!
+Feel free to open an issue or create a PR for features, improvements, or bugs.
+
+## 📄 License
+
+MIT License. See [LICENSE](https://github.com/MiladSadeghi/leetcode-whiteboard/LICENSE.md) for details.

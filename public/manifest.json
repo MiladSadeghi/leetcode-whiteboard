@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Leetcode Whiteboard",
   "version": "1.0",
-  "description": "Solve algorithm with whiteboard",
+  "description": "Draw and solve algorithms with a whiteboard on LeetCode.",
   "content_scripts": [
     {
       "matches": ["https://leetcode.com/problems/*"],
@@ -10,10 +10,10 @@
     }
   ],
   "icons": {
-    "16": "icon-16.png",
-    "32": "icon-32.png",
-    "48": "icon-48.png",
-    "128": "icon-128.png"
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
   },
   "permissions": ["scripting"],
   "host_permissions": ["https://leetcode.com/*"]
