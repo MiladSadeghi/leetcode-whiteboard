@@ -1,6 +1,6 @@
 # ✏️ LeetCode Whiteboard – Chrome Extension
 
-![preview](public/image/preview.png)
+<a href="https://www.producthunt.com/posts/leetcode-whiteboard?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-leetcode&#0045;whiteboard" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=948816&theme=light&t=1743749924948" alt="Leetcode&#0032;Whiteboard - a&#0032;chrome&#0032;extension&#0032;that&#0032;adds&#0032;a&#0032;whiteboard&#0032;to&#0032;leetcode&#0032;pages&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 A whiteboard overlay for [LeetCode](https://leetcode.com) problem pages.  
 Draw, write, and visualize your algorithm ideas without leaving the tab.  
